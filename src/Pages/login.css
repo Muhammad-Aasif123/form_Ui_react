@@ -1,0 +1,21 @@
+body{
+    background-color: black !important;
+}
+.LOGIN{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px !important;
+}
+p{
+    color: white;
+    font-size: small;
+    margin-left: 60px;
+    margin-top: 15px !important;
+}
+@media screen and (max-width: 815px) {
+    #IMMG {
+      display: none;
+    }
+  }

@@ -1,0 +1,16 @@
+.MainDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+#IMG{
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 950px) {
+   #IMG {
+     display: none !important;
+    }
+  }
